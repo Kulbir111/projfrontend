@@ -51,7 +51,7 @@ function AdminHeader() {
                                     </a>
                                 </>:<>
                                 <a className="text-dark login_btn align-self-center mx-3">
-                                <Link to="/vieworders">Your Orders</Link></a>
+                                <Link to="/vieworders">Manage Orders</Link></a>
                                <a className="text-dark login_btn align-self-center mx-3">
                                      <Link to="/changepassword">Change Password</Link>
                                 </a>
