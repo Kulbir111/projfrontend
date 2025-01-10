@@ -165,7 +165,7 @@ function ManageSubProduct() {
 			formdata.append("dis", dis)
 			formdata.append("stock", stock)
 			formdata.append("descp", descp)
-			const resp = await axios.post(`${process.env.REACT_APP_APIPREFIX}/api/savesubproduct`, formdata)
+			const resp = await axios.post(`${process.env.REACT_APP_APIPREFIX}/api/savesubProduct`, formdata)
 			if (resp.status === 200) {
 				if (resp.data.statuscode === 1) {
 					toast.success("Product Added Successfully")
